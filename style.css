@@ -471,6 +471,10 @@ padding: 1.4rem;
 cursor: pointer;
 transition: all 300ms ease;
 }
+.right .sales-anaytics .items-add:hover{
+    background: #7380ec;
+    color: white;
+}
 .right .sales-anaytics .items-add div {
     display: flex;
     justify-content: center;
@@ -492,6 +496,14 @@ and (max-width:768px){
         width: 18rem;
         height: 100vh;
         display: none;
+        z-index: 2;
+        animation: showmenu 400ms ease forwards;
+        left: -100%;
+    }
+    @keyframes showmenu {
+       to{
+           left: 0;
+       }
     }
     aside .sidebar a{
         width: 100%;
@@ -508,7 +520,7 @@ and (max-width:768px){
     }
     aside .sidebar a:last-child{
         position: absolute;
-        bottom: 7rem;
+        bottom: 0rem;
         width: 100%;
     }
     main{
