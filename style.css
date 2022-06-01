@@ -155,7 +155,7 @@ aside .sidebar a:hover span{
 main{
     margin-top: 1.4rem;
     margin-left: 300px; 
-    width: 50%;
+    /* width: 50%; */
 }
 main .date{
     background:rgba(132, 139, 200, 0.18);
@@ -301,7 +301,7 @@ display: block;
 /* end main */
 .right{
 margin-top: 1.4rem;
-width: 30%;
+/* width: 30%; */
 }
 .right .top{
 display: flex;
