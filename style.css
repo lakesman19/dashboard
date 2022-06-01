@@ -66,9 +66,10 @@ small{
 aside{
     height: 100vh;
     /* addition of width */
-    width: 250px;
+    width: 300px;
     position: fixed;
     left: 0;
+    /* background: #41f1b6; */
 }
 aside .top{
 display: flex;
@@ -119,7 +120,7 @@ transition: all 300ms ease;
 }
 aside .sidebar a:last-child{
     position: absolute;
-    bottom: 0.5rem;
+    bottom: 0;
     width: 100%;
 }
 aside .sidebar a.active{
@@ -507,7 +508,7 @@ and (max-width:768px){
     }
     aside .sidebar a{
         width: 100%;
-        height: 5.4rem;
+        height: 4.5rem;
     }
     aside .logo {
         margin-left: 1rem;
