@@ -584,7 +584,7 @@ and (max-width:768px){
 and (min-width:769px)
 and (max-width:1300px){
     #container{
-        justify-content: center;
+        justify-content: space-between;
         margin: 0;
     }
     aside{
