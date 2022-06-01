@@ -65,21 +65,16 @@ small{
 }
 aside{
     height: 100vh;
-    /* background: gray; */
-    /* min-width:15%; */
     /* addition of width */
     width: 250px;
     position: fixed;
     left: 0;
-    /* border:  red solid; */
 }
 aside .top{
-/* background: white; */
 display: flex;
 align-items: center;
 justify-content: space-between;
 margin-top: 1.4rem;
-/* flex: 1 1 0; */
 }
 .logo{
     display: flex;
@@ -159,8 +154,8 @@ aside .sidebar a:hover span{
 /* main */
 main{
     margin-top: 1.4rem;
-    /* width: 55%;  */
-    margin-left: 250px; 
+    margin-left: 300px; 
+    width: 50%;
 }
 main .date{
     background:rgba(132, 139, 200, 0.18);
@@ -306,7 +301,7 @@ display: block;
 /* end main */
 .right{
 margin-top: 1.4rem;
-/* width: 30%; */
+width: 30%;
 }
 .right .top{
 display: flex;
@@ -519,6 +514,7 @@ and (max-width:768px){
     main{
         margin-left: 0;
         margin-top: 7rem;
+        width: 100%;
     }
     main .insights{
         display: flex;
@@ -586,7 +582,7 @@ and (max-width:768px){
 }
 @media screen 
 and (min-width:769px)
-and (max-width:1200px){
+and (max-width:1300px){
     #container{
         justify-content: center;
         margin: 0;
@@ -608,7 +604,7 @@ and (max-width:1200px){
        margin-top: 1.8rem;
     }
     main{
-        width: 500px;
+        width: 100%;
         margin-left: 200px;
     }
     main .insights{
@@ -618,7 +614,7 @@ and (max-width:1200px){
         width: 100%;
     }
     .right{
-        /* min-width:400px; */
+        width: 100%;
         margin-top: 2;
     }
    
