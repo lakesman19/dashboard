@@ -159,10 +159,8 @@ aside .sidebar a:hover span{
 /* main */
 main{
     margin-top: 1.4rem;
-    min-width: 55%; 
-    /* width: calc(100% - 200px); */
+    /* width: 55%;  */
     margin-left: 250px; 
-    /* flex: 2 1 0; */
 }
 main .date{
     background:rgba(132, 139, 200, 0.18);
@@ -309,7 +307,6 @@ display: block;
 .right{
 margin-top: 1.4rem;
 /* width: 30%; */
-width: calc(100%-250px-(55%));
 }
 .right .top{
 display: flex;
@@ -622,15 +619,15 @@ and (max-width:1200px){
     }
     .right{
         /* min-width:400px; */
-        margin-top: 0;
+        margin-top: 2;
     }
    
     main .recent {
         position: absolute;
         width: 94%;
-        left: 50%;
+        /* left: 50%; */
         /* transform: translate(-50%); */
-        margin: 2rem 0 0 5rem;
+        /* margin: 2rem 0 0 5rem; */
     }
     main  .recent table {
         width: 80%;
