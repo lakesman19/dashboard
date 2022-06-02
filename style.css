@@ -634,7 +634,7 @@ and (max-width:1300px){
    
     main .recent {
         position: absolute;
-        width: 94%;
+        width: 100%;
         /* left: 50%; */
         /* transform: translate(-50%); */
         /* margin: 2rem 0 0 5rem; */
