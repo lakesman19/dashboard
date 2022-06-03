@@ -22,13 +22,3 @@ closeBtn.addEventListener('click' , () => {
 
 
 
-const age = prompt('enter age ');
-// const isOldEnough = age > 18;
-// const legalAge = 18
-
-if(age > 18) {alert('sarah is old enough to start driving')}
-else if (age <= 18 && age >= 18 ){alert('sarah needs to take a driving lesson')}
-else {
-         age < 18
-    alert('sarah is too young to drive. wait another; (alert(years)) years')
-}
