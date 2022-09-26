@@ -747,7 +747,8 @@ and (max-width:1600px){
     main .recent {
         position: absolute;
         width: 80%;
-        left: 61%;
+        left: 58%;
+        margin-left: 2rem;
         transform: translate(-50%);
     }
 }
